@@ -5,18 +5,15 @@
 }
 .pizza{
     border-top: solid #af2024 40px;
-    background-image: url("../images/background.png");
-    background-position: center top;
+    background: url("../images/background.png") no-repeat #3f0002;
     background-size: 100% auto;
     padding-top: 21px;
-    position: relative;
 }
 .social {
     position: fixed;
     right: 0;
     top: 225px;
     list-style: none;
-    width: 50px;
 }
 .social a{
     text-decoration: none;
@@ -28,9 +25,9 @@
     font-size: 35px;
     color: white;
     width: 50px;
-    background-color: #850409;;
+    background-color: #850409;
     text-align: center;
-    line-height: 48px;
+    height: 48px;
 }
 .twitter:before{
     content: "\f099";
@@ -114,9 +111,6 @@ p:before{
     font-size: 15px;
     color: #98161b ;
     margin-bottom: 17px;
-}
-.line{
-    background-color: #3f0002;
 }
 footer{
     background-color: black;
