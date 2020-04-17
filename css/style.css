@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pizza{
+    border-top: solid #af2024 40px;
+    background-image: url("../images/background.png");
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 21px;
+    position: relative;
+}
+.social {
+    position: fixed;
+    right: 0;
+    top: 225px;
+    list-style: none;
+    width: 50px;
+}
+.social a{
+    text-decoration: none;
+}
+.facebook:before{
+    content: "\f39e";
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    font-size: 35px;
+    color: white;
+    width: 50px;
+    background-color: #850409;;
+    text-align: center;
+    line-height: 48px;
+}
+.twitter:before{
+    content: "\f099";
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    width: 50px;
+    background-color: #98161b;
+    line-height: 48px;
+}
+.container{
+    max-width: 992px;
+    margin: auto;
+}
+.logo {
+    margin-bottom: 34px;
+}
+.player{
+    max-width: 716px;
+    margin: auto;
+    z-index: 1;
+    top: 38px;
+    position: relative;
+}
+.top h2{
+    color: white;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+.top{
+    background-color: #af2024;
+    padding: 28px 0 28px 23px;
+}
+.white{
+    padding-top: 63px;
+    padding-bottom: 122px;
+    background-color: white;
+    margin: auto;
+}
+.content{
+    max-width: 566px;
+    margin: auto;
+}
+.grey{
+    height: 347px;
+    max-width: 567px;
+    background-color: #e7e7e7;
+    position: relative;
+    margin-bottom: 32px;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -23px;
+    margin-top: -27px;
+}
+.subtitle{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    color:#98161b ;
+    font-size: 13px;
+    margin-bottom: 17px;
+}
+span{
+    color: #7d7d7d;
+}
+p{
+    color: #98161b ;
+    font-size: 12px;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    margin-bottom: 128px;
+}
+p:before{
+    display: block;
+    content: ".........";
+    font-size: 15px;
+    color: #98161b ;
+    margin-bottom: 17px;
+}
+.line{
+    background-color: #3f0002;
+}
+footer{
+    background-color: black;
+    height: 451px;
+    z-index: 0;
+}
