@@ -17,6 +17,17 @@
 }
 .social a{
     text-decoration: none;
+    /*background-color: #af2024;*/
+    width: 50px;
+    text-align: center;
+    line-height: 48px;
+    display: block;
+}
+.twitter{
+    background-color: #af2024;
+}
+.facebook{
+    background-color:#3f0002 ;
 }
 .facebook:before{
     content: "\f39e";
@@ -25,7 +36,6 @@
     font-size: 35px;
     color: white;
     width: 50px;
-    background-color: #850409;
     text-align: center;
     height: 48px;
 }
@@ -37,7 +47,6 @@
     font-size: 35px;
     color: white;
     width: 50px;
-    background-color: #98161b;
     line-height: 48px;
 }
 .container{
